@@ -1,0 +1,42 @@
+
+
+[
+    {
+        "id": 1,
+        "image": "../images/speed-range.png",
+        "title":"Wide Speed Range",
+        "description":"Broad speed capabilities for a range of operations."
+        
+    },
+    {
+        "id": 2,
+        "image":"../images/compact-design.png",
+        "title":"Compact Design",
+        "description":"Minimal Footprint, maximum power"
+    },
+    {
+        "id": 3,
+        "image":"../images/constant-torque.png",
+        "title":"Constant Torque Operation",
+        "description":"Consistent across various speeds and loads"
+    },
+
+    {
+        "id": 4,
+        "image":"../images/high-efficiency.png",
+        "title":"High efficiency",
+        "description":"Exceptional efficiency for substantial savings"
+    },
+    {
+        "id": 5,
+        "image":"../images/long-life-span.png",
+        "title":"Long Life Span",
+        "description":"Durable and long-lasting performance."
+    },
+    {
+        "id": 6,
+        "image":"../images/low-noise.png",
+        "title":"Low Noise & Vibration",
+        "description":"Virtually silent with minimal vibration."
+    }
+]

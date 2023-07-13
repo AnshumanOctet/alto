@@ -1,3 +1,104 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100%;
+}
+body{
+    
+  
+}
+
+h2{
+font-family: Barlow;
+font-size: 40px;
+font-weight: 500;
+line-height: 72px;
+letter-spacing: 0.015em;
+
+
+}
+
+.layout{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.links{
+    width: 85%;
+}
+
+.links a{
+    font-family: 'SF Pro',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.contact-bldc{
+    padding: 8px 20px;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+}
+
+
+
+.active{
+    font-family: SF Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+   color: #D70000;
+
+}
+
+footer ul li a{
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.019em;
+    color: #FFFFFFCC;
+    display: inline-block;
+    margin-bottom: 8px;
+  
+}
+
+footer ul li:first-child a{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.bldc-cog-image::after{
+    content: "BLDC Labs";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+
+}
