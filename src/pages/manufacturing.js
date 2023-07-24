@@ -6,6 +6,7 @@ import { getImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery } from "gatsby";
 import Items from '../components/Items';
 
+
 export default function Manufacturing() {
 
   const itemsImage = useStaticQuery(graphql`

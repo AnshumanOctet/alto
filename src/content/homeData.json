@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "video":"../videos/video_1.mp4",
+        "title": "Revolutionising Power: The Advanced Technology of BLDC Motors",
+        "description":[
+           "Unleashing a new era in motor engineering, Brushless Direct Current (BLDC) motors serve as the pinnacle of performance.",
+           "Fuelled by the immense power density, these motors deliver unmatched torque and efficiency. Incorporated with precision Hall sensors, they ensure seamless performance by offering real-time feedback for optimal control.",
+           "With BLDC motors, we're not just shaping the future of motors, we're advancing the frontier of technology!"
+
+        ]
+    },
+    {
+        "id":2,
+        "video":"../videos/video_2.mp4",
+        "title": "Advanced Manufacturing for Quality Motors",
+        "description":[
+            "We are paving the path in motor industry innovation with our superior manufacturing capabilities. Our production process, meticulously designed and impeccably executed, uses NdFeB magnets to create Brushless Direct Current (BLDC).",
+            "Our manufacturing plant ensures precision assembly and accurate calibration across the production line, with a robust testing protocol in place to guarantee optimal performance."
+ 
+         ]
+    },
+    {
+        "id":3,
+        "video":"../videos/video_3.mp4",
+        "title": "Rigorous Testing Ensures Motor Quality",
+        "description":[
+                "We believe in leaving nothing to chance when it comes to the performance of our Brushless Direct Current (BLDC) motors.",
+                "We prioritize comprehensive testing and meticulous inspection to ensure our motors meet the highest standards of quality, efficiency, and performance. With state-of-the-art equipment, we scrutinize every aspect of our BLDC motors for optimal power efficiency, torque generation, and overall performance."
+        ]
+    }
+   
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "description":[
+           "AGV Semiconductor",
+           "AMR Semiconductor",
+           "Sports Equipments",
+           "Automotive",
+           "Robotics"
+        ]
+    },
+    {
+        "id":2,
+        "description":[
+           "Industrial",
+           "Household Appliances",
+           "Texttile",
+           "Medical",
+           "Automation"
+         ]
+    },
+    {
+        "id":3,
+        "description":[
+           "AGV Semiconductor",
+           "AMR Semiconductor",
+           "Sports Equipments",
+           "Automotive",
+           "Robotics"
+        ]
+    },
+    {
+        "id":4,
+        "description":[
+           "Industrial",
+           "Household Appliances",
+           "Texttile",
+           "Medical",
+           "Automation"
+         ]
+    }
+   
+]

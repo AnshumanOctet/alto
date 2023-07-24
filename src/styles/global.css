@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500&display=swap');
 
 
@@ -51,7 +52,7 @@ h3{
 
 
 .layout{
-    max-width: 1366px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -145,7 +146,7 @@ footer ul li:first-child a{
 
 .item-container.odd .text-info{
     grid-column: 1;
-    padding:0 0 0 60px;
+    padding:0 80px;
 }
 .item-container.odd .image-info{
     grid-column: 2;
@@ -153,11 +154,12 @@ footer ul li:first-child a{
 
 .item-container.even .text-info{
     grid-column: 2;
-    padding: 0 0 0 60px;
+    padding: 0 80px;
 }
 .item-container.even .image-info{
     grid-column: 1;
 }
+
 
 .swiper-pagination .swiper-pagination-bullet{
     width: 45px;
@@ -171,3 +173,27 @@ footer ul li:first-child a{
     left: 0px !important;
     width: auto !important;
 }
+
+.why-alto{
+    background-image: url('../images/why-alto.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.why-alto-text li{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+ 
+}
+
+.application-ul{
+    width: max-content;
+}
+
+
