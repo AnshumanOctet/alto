@@ -166,12 +166,14 @@ export default function Bldc() {
             Join Our Team
           </button>
         </div>
-        <StaticImage
-          src="../images/research.png"
-          alt='cog image'
-          width={1366}
-          height={366}
-          className='' />
+        <div className='w-[100%] mx-auto'> 
+          <StaticImage
+            src="../images/research.png"
+            alt='cog image'
+            width={1366}
+            height={366}
+            className='' />
+        </div>
 
       </section>
 
@@ -182,7 +184,7 @@ export default function Bldc() {
               Get in touch with us to experience the best in motor industry innovation and service.
             </p>
             <button className='cto-btn py-[14px] px-[20px] rounded-[2px] bg-white text-[#1C1C1C] hover:bg-[#D9D9D9] transition ease-in-out duration-400 text-[16px] font-medium mt-[50px] leading-[19.2px]'>
-            Enquiry Now &rarr;
+              Enquiry Now &rarr;
             </button>
           </div>
           <div className='pl-[100px]'>
