@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "image":"design.png",
+        "title": "Design",
+        "description":"Employing advanced design methodologies and precision engineering to create highly efficient and reliable BLDC controllers, tailored to meet your specific motor control requirements and optimise system performance."
+    },
+    {
+        "id":2,
+        "image":"develop.png",
+        "title": "Develop",
+        "description":"Precisely manufactured controllers tailored to match your design specifications for seamless integration and optimal performance"
+    },
+    {
+        "id":3,
+        "image":"deliver.png",
+        "title": "Deliver",
+        "description":"Streamlined delivery process ensures prompt access to controllers for optimised motor systems."
+    }
+   
+]

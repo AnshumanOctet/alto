@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "image":"bldc.png",
+        "title": "BLDC",
+        "description":"Power your innovations with our high-performance BLDC motor and driver solutions, unlocking limitless possibilities for precision and control."
+    },
+    {
+        "id":2,
+        "image":"induction_motor.png",
+        "title": "Induction Motors",
+        "description":"Drive your projects forward with our reliable induction motor, delivering robust performance and reliable operation."
+    },
+    {
+        "id":3,
+        "image":"accessories.png",
+        "title": "Accessories",
+        "description":"Complete your motor system with our precision encoder and reliable gearbox, unlocking enhanced precision and versatility for your applications."
+    }
+    
+]

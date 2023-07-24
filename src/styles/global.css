@@ -27,13 +27,37 @@ font-size: 40px;
 font-weight: 500;
 line-height: 72px;
 letter-spacing: 0.015em;
+}
 
+h3{
+    font-family: Barlow;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.015em;
+}
+.text-box{
+    width: 243px;
 
 }
+
+.text-decription{
+    font-family: Barlow;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
 
 .layout{
     max-width: 1366px;
     margin: 0 auto;
+}
+
+.nav{
+    /* box-shadow: 0px 0px 10px 1px #ECE3E3; */
+    
 }
 .links{
     width: 85%;
@@ -99,6 +123,51 @@ footer ul li:first-child a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
- 
+}
 
+/* .hyphen::before{
+    content: "\201C";
+    position: absolute;
+} */
+.gradient-blue{
+    background: linear-gradient(180deg, #FFFFFF 54.17%, #D5EDFA 100%);
+
+}
+
+
+.form-input::placeholder{
+    color: #111111;
+}
+
+.form-container input,select,textarea{
+    width: 100%;
+}
+
+.item-container.odd .text-info{
+    grid-column: 1;
+    padding:0 0 0 60px;
+}
+.item-container.odd .image-info{
+    grid-column: 2;
+}
+
+.item-container.even .text-info{
+    grid-column: 2;
+    padding: 0 0 0 60px;
+}
+.item-container.even .image-info{
+    grid-column: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+    width: 45px;
+    height: 4px;
+    background-color: #444444;
+    border-radius: 0;
+}
+
+.swiper-pagination{
+    bottom: 0px !important;
+    left: 0px !important;
+    width: auto !important;
 }

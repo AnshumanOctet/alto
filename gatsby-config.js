@@ -12,21 +12,22 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
        name: `images`,
-      path: `${__dirname}/src/images/`,
+       path: `${__dirname}/src/images/`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-       name: `content`,
-      path: `${__dirname}/src/content/`,
+        name: 'data',
+        path: `${__dirname}/src/content/`, 
       },
     },
+ 
     "gatsby-plugin-postcss",
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-json`
 
   ],
   // plugins: [`gatsby-plugin-layout`]

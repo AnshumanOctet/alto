@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "image":"what-manufacture.png",
+        "title": "What we manufacture",
+        "description":"We specialise in the manufacturing motors for a wide range of applications, including industrial machinery, automotive, medical equipment, and more."
+    },
+    {
+        "id":2,
+        "image":"how-help.png",
+        "title": "How we help",
+        "description":"Our team of experts works tirelessly to provide customized solutions that meet the unique needs of each of our clients. We use state-of-the-art technology and cutting-edge techniques to ensure that our products are of the highest quality and performance."
+    },
+    {
+        "id":3,
+        "image":"winding-automation.png",
+        "title": "Winding Automation",
+        "description":"We have in house Auto winding machine for distributed as well as concentrated winding to ensure we can support most type of winding topology. ",
+        "sub_description":"The integration of advanced automation technology enhances productivity, reduces labor-intensive processes, and maintains consistent quality throughout production."
+    },
+    {
+        "id":4,
+        "image":"precision-machine.png",
+        "title": "Precision Machining",
+        "description":"We utilise CNC turning and grinding machines, as well as Vertical machining enter, to achieve exceptional precision in the manufacturing of motor components.",
+        "sub_description":"These machines enable us to create intricate designs, tight tolerances, and smooth finishes, resulting in high-performance BLDC motors."
+    },
+    {
+        "id":5,
+        "image":"testing-finishing.png",
+        "title": "Rigorous Testing and Finishing",
+        "description":"Our facility is equipped with an automatic motor test panel to comprehensively evaluate the performance and functionality of each motor. ",
+        "sub_description":"Every motor undergoes extensive performance testing, thorough inspections, and precise calibration to meet the strictest industry standards. With our commitment to excellence, you can trust in the reliability, efficiency, and longevity of our motor products."
+    }
+]

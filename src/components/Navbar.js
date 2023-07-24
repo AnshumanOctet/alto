@@ -9,9 +9,11 @@ export default function Navbar() {
     const isBldc = location.pathname === '/bldc/';
     console.log(isBldc)
     return (
-        <nav className={`flex justify-between items-center mx-auto   py-5 px-8 rounded-[10px]  links 
+        <nav className={`nav flex justify-between items-center mx-auto   py-5 px-8 rounded-[10px] links 
                         ${isBldc ? 'bg-[#262626]' : 'bg-[#fff]'} 
-                        ${isBldc ? 'text-[#ffffff]' : 'text-[#1c1c1c]'}`} >
+                        ${isBldc ? 'text-[#ffffff]' : 'text-[#1c1c1c]'} 
+                        ${isBldc ? 'shadow-none' : 'shadow-[0_0_10px_1px_#ECE3E3]'} `}
+                         >
             <div className='flex items-center gap-10'>
                 <Link to='/' activeClassName="active">
 
