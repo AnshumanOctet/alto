@@ -9,7 +9,7 @@ export default function ContactUs() {
 
   }
   return (
-    <Layout backgroundColor='' color='#3E3E3E'>
+    <Layout background='' color='#3E3E3E'>
       <section className='pt-[100px] w-[85%] mx-auto'>
         <div>
           <p className='text-[50px] leading-[55px] mb-[12px]' >

@@ -33,7 +33,7 @@ export default function Navbar() {
                 <Link to='/manufacturing' activeClassName="active">Manufacturing</Link>
                 <Link to='/product' activeClassName="active">Products</Link>
                 <Link to='/about' activeClassName="active">About</Link>
-                <Link to='/blog' activeClassName="active">Blog</Link>
+                {/* <Link to='/blog' activeClassName="active">Blog</Link> */}
             </div>
             {isBldc
                 ?

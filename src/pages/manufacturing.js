@@ -38,17 +38,17 @@ export default function Manufacturing() {
   const scale_Item = items.filter((item) => item.id !== 1 && item.id !== 2);
 
   return (
-    <Layout backgroundColor='#F5F5F5' color='#3E3E3E'>
+    <Layout background='#F5F5F5' color='#3E3E3E'>
       <section className='mb-[375px]'>
         <div className='text-center items-center w-[85%] mx-auto mt-[250px] mb-[170px]'>
           <h2 className='mb-[10px]'>Manufacturing</h2>
           <p className='text-xl '>Manufacturing Motors with a Focus on Quality and Innovation</p>
         </div>
-        <div>
+        <div className='w-[100%]'>
           <StaticImage
             src="../images/manufactoring.png"
             alt='image of spare parts'
-            width={1366}
+            width={1600}
             height={159}
             className='' />
         </div>

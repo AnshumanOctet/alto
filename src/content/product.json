@@ -1,0 +1,110 @@
+[
+    {
+        "id":1,
+        "image":"bldc_motor.png",
+        "title": "FL57BL01",
+        "heading":"BLDC Motor",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":2,
+        "image":"bldc_motor.png",
+        "title": "FL57BL02",
+        "heading":"BLDC Motor",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":3,
+        "image":"bldc_motor.png",
+        "title": "FL57BL03",
+        "heading":"BLDC Motor",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":4,
+        "image":"bldc_motor.png",
+        "title": "FL57BL04",
+        "heading":"BLDC Motor",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"BLDC Motors"
+        
+    },
+    {
+        "id":5,
+        "image":"bldc_driver.png",
+        "title": "BLDC300",
+        "heading":"BLDC Driver",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"BLDC Driver"
+        
+    },
+    {
+        "id":6,
+        "image":"bldc_driver.png",
+        "title": "BLDC10",
+        "heading":"BLDC Driver",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"BLDC Driver"
+        
+    },
+    {
+        "id":7,
+        "image":"ind_motor.png",
+        "title": "Aluminium Std. Induction Motor",
+        "heading":"Induction Motor",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"Induction Motors"
+        
+    },
+    {
+        "id":8,
+        "image":"KIH49.png",
+        "title": "KIH49",
+        "heading":"Encoder Accesories",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"Accessories"
+        
+    },
+    {
+        "id":9,
+        "image":"worm_gear.png",
+        "title": "Worm Gearbox",
+        "heading":"Gearbox Accessories",
+        "voltage":"24V",
+        "power":"70W",
+        "speed":".5A",
+        "weight":".8KG",
+        "category":"Accessories"
+        
+    }
+]

@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import { getImage } from "gatsby-plugin-image";
-import { graphql, useStaticQuery } from "gatsby";
+import { Link, graphql, useStaticQuery } from "gatsby";
 import data from "../content/data.json"
 import Card from '../components/Card'
 import Steps from '../components/Steps'
@@ -183,9 +183,9 @@ export default function Bldc() {
             <p className='text-[30px] leading-[36px]'>
               Get in touch with us to experience the best in motor industry innovation and service.
             </p>
-            <button className='cto-btn py-[14px] px-[20px] rounded-[2px] bg-white text-[#1C1C1C] hover:bg-[#D9D9D9] transition ease-in-out duration-400 text-[16px] font-medium mt-[50px] leading-[19.2px]'>
+            <Link to='/contactUs' className='cursor-pointer inline-block cto-btn py-[14px] px-[20px] rounded-[2px] bg-white text-[#1C1C1C] hover:bg-[#D9D9D9] transition ease-in-out duration-400 text-[16px] font-medium mt-[50px] leading-[19.2px]'>
               Enquiry Now &rarr;
-            </button>
+            </Link>
           </div>
           <div className='pl-[100px]'>
             <StaticImage

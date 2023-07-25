@@ -196,4 +196,17 @@ footer ul li:first-child a{
     width: max-content;
 }
 
+.home-bg{
+    background: url('../images/home-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.product-bg{
+
+    background: radial-gradient(rgba(255, 255, 255, .1),rgba(247, 247, 247, .5) ),url('../images/product_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

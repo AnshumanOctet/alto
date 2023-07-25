@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import bgImage from '../images/home-bg.png'
 import swiperItems from "../content/swiper.json"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { graphql, useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules'
 import 'swiper/css/bundle'
@@ -11,7 +11,12 @@ import homeData from "../content/homeData.json"
 import application from "../content/application.json"
 import Marquee from "react-fast-marquee";
 import video_1 from "../videos/video_1.mp4"
+import video_2 from "../videos/video_2.mp4"
+import video_3 from "../videos/video_3.mp4"
 import { StaticImage } from "gatsby-plugin-image"
+import backgroundImage from "../images/home-bg.png"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 
 
@@ -47,44 +52,91 @@ const IndexPage = () => {
   });
 
   return (
-    <Layout background={bgImage} >
-      <section className="w-[85%] mx-auto py-[150px]">
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={50}
-          slidesPerView={1}
-          loop={true}
-          pagination={{ clickable: true }}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          {
-            swiperItems.map((info, index) => (
-              <SwiperSlide key={index}>
-                <div className="">
-                  <div className="grid grid-cols-2 items-center justify-between">
-                    <div>
-                      <h1 className="font-normal text-[90px] leading-[99px] text-[#333333] mb-[45px]">{info.title}</h1>
-                      <p className="font-normal text-[18px] leading-[28px] tracking-[3%] text-[#5a5a5a]">{info.description}</p>
-                    </div>
-                    <div>
-                      <GatsbyImage className='' image={swiperImagesByPath[info.image]} alt="" />
+    <div className="">
+      <div className="home-bg pt-8">
+        <Navbar />
+        <section className="w-[85%] mx-auto pt-[100px] pb-[150px]" >
+          <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            spaceBetween={50}
+            slidesPerView={1}
+            loop={true}
+            pagination={{ clickable: true }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            {
+              swiperItems.map((info, index) => (
+                <SwiperSlide key={index}>
+                  <div className="">
+                    <div className="grid grid-cols-2 items-center justify-between">
+                      <div>
+                        <h1 className="font-normal text-[90px] leading-[99px] text-[#333333] mb-[45px]">{info.title}</h1>
+                        <p className="font-normal text-[18px] leading-[28px] tracking-[3%] text-[#5a5a5a]">{info.description}</p>
+                      </div>
+                      <div>
+                        <GatsbyImage className='' image={swiperImagesByPath[info.image]} alt="" />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </SwiperSlide>
-            ))
-          }
+                </SwiperSlide>
+              ))
+            }
 
-        </Swiper>
-      </section>
-
+          </Swiper>
+        </section>
+      </div>
       <section className="">
-        {
+        <div className="w-[85%] mx-auto grid grid-cols-2">
+          <div className="flex flex-col justify-center items-center px-[80px] py-[150px]">
+            <h2 className="text-[40px] leading-[48px] tracking-[1.5%] mb-[50px] ">Revolutionising Power: The Advanced Technology of BLDC Motors</h2>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">Unleashing a new era in motor engineering, Brushless Direct Current (BLDC) motors serve as the pinnacle of performance.</p>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">Fuelled by the immense power density, these motors deliver unmatched torque and efficiency. Incorporated with precision Hall sensors, they ensure seamless performance by offering real-time feedback for optimal control.</p>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">With BLDC motors, we're not just shaping the future of motors, we're advancing the frontier of technology!</p>
+          </div>
+          <div>
+            <video autoPlay loop className="w-[686px] h-[768px]">
+              <source src={video_1} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+
+        <div className="w-[85%] mx-auto grid grid-cols-2">
+          <div>
+            <video autoPlay loop className="w-[686px] h-[768px]">
+              <source src={video_2} type="video/mp4" />
+            </video>
+          </div>
+          <div className="flex flex-col justify-center items-center px-[80px] py-[150px]">
+            <h2 className="text-[40px] leading-[48px] tracking-[1.5%] mb-[50px] ">Revolutionising Power: The Advanced Technology of BLDC Motors</h2>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">Unleashing a new era in motor engineering, Brushless Direct Current (BLDC) motors serve as the pinnacle of performance.</p>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">Fuelled by the immense power density, these motors deliver unmatched torque and efficiency. Incorporated with precision Hall sensors, they ensure seamless performance by offering real-time feedback for optimal control.</p>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">With BLDC motors, we're not just shaping the future of motors, we're advancing the frontier of technology!</p>
+          </div>
+
+        </div>
+
+        <div className="w-[85%] mx-auto grid grid-cols-2">
+          <div className="flex flex-col justify-center items-center px-[80px] py-[150px]">
+            <h2 className="text-[40px] leading-[48px] tracking-[1.5%] mb-[50px] ">Revolutionising Power: The Advanced Technology of BLDC Motors</h2>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">Unleashing a new era in motor engineering, Brushless Direct Current (BLDC) motors serve as the pinnacle of performance.</p>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">Fuelled by the immense power density, these motors deliver unmatched torque and efficiency. Incorporated with precision Hall sensors, they ensure seamless performance by offering real-time feedback for optimal control.</p>
+            <p className="mb-[25px] text-[17px] leading-[26px] tracking-[.51px] text-[#3e3e3e]">With BLDC motors, we're not just shaping the future of motors, we're advancing the frontier of technology!</p>
+          </div>
+          <div>
+            <video autoPlay loop className="w-[686px] h-[768px]">
+              <source src={video_3} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        
+
+
+        {/* {
           homeData.map((info, index) => (
             <div className={`grid grid-cols-2 grid-flow-dense item-container  ${info.id % 2 === 0 ? 'even' : 'odd'} `}>
               <div className="text-info bg-[#fafafa] items flex flex-col justify-center items-center ">
@@ -99,12 +151,13 @@ const IndexPage = () => {
               <div className="image-info ">
                 <video autoPlay loop className="w-[686px] h-[768px]">
                   <source src={video_1} type="video/mp4" />
+                  
                 </video>
               </div>
 
             </div>
           ))
-        }
+        } */}
 
       </section>
 
@@ -153,13 +206,13 @@ const IndexPage = () => {
       <section className='py-[150px] bg-[#FAFAFA]'>
         <div className='grid grid-cols-2 justify-items-end w-[85%] mx-auto'>
           <div className=' py-[75px] '>
-             
+
             <p className='text-[30px] leading-[36px] text-[#1c1c1c]'>
-            Get in touch with us to experience the best in motor industry innovation and service.
+              Get in touch with us to experience the best in motor industry innovation and service.
             </p>
-            <button className='cto-btn py-[14px] px-[20px] rounded-[2px] text-[#ffffff] bg-[#1C1C1C] hover:bg-[#404040] transition ease-in-out duration-400 text-[16px] font-medium mt-[30px] leading-[19.2px]'>
+            <Link to="/contactUs" className='inline-block cto-btn py-[14px] px-[20px] rounded-[2px] text-[#ffffff] bg-[#1C1C1C] hover:bg-[#404040] transition ease-in-out duration-400 text-[16px] font-medium mt-[30px] leading-[19.2px]'>
               Enquiry Now &nbsp; &rarr;
-            </button>
+            </Link>
           </div>
           <div className=''>
             <StaticImage
@@ -174,12 +227,8 @@ const IndexPage = () => {
 
       </section>
 
-
-
-
-    </Layout>
-
-
+      <Footer />
+    </div>
   )
 }
 
